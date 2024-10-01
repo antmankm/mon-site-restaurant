@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins' sans-serif;
+}
+
+
+.container-fluid{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 90%
+}
+
+
+.hero{
+    background-image: url('https://img.freepik.com/free-photo/fast-food-meal-burger-fries-drink-generative-ai_188544-12257.jpg?t=st=1727732309~exp=1727735909~hmac=5b44aa125e5f8ab7c2845c50d7c53b1ed334282d07aa60e2c7124ad60ea50986&w=1060');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.hero a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
