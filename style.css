@@ -3,7 +3,9 @@ body{
     margin: 0;
     font-family:'poppins' sans-serif;
 }
-
+.navbar-brand, .nav-link{
+    color: white;
+}
 
 .container-fluid{
     display: flex;
@@ -40,3 +42,9 @@ body{
 }
 
 
+.hero button{
+ margin-left: 42%;
+ background-color:gray;
+ border-radius: 5px;
+ border-color: beige;
+}
